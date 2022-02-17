@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		JavaScript code for adding new
+		elements dynamically
+	</title>
+</head>
+
+<body>
+	<button onclick="create()">
+		Click Here!
+	</button>
+	
+	<script>
+		function create() {
+			var A = document.createElement('A');
+			A.textContent = "B";
+			A.setAttribute('id', 'myid');
+			document.body.appendChild(A);
+		}
+	</script>
+
+  
+        
+</body>
+
+</html>
